@@ -1,0 +1,109 @@
+.nav {
+    top: 0;
+    background-color: rgb(36, 32, 32);
+    width: 100%;
+    position: sticky;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+    box-shadow: 0 8px 4px -4px rgba(0, 0, 0, .2);
+}
+.navcont {
+    padding: 0px 10px 0px 10px;
+    float: left;
+}
+.navelem {
+    padding: 7px 11px 6px 11px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.navelem:hover {
+    background-color: rgb(61, 55, 55);
+}
+.navtitl {
+    padding: 7px 0px 0px 0px;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 20px;
+}
+i {
+    color: white;
+    font-size: 18px;
+}
+.navbar {
+    display: block;
+    position: fixed;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: #eee;
+    height: 100%;
+    top: 0;
+    left: -200px;
+    transition: left .2s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+html, body {
+    height: 100%;
+}
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style:none;
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 260px;
+    background-color: rgb(36, 32, 32);
+    height: 100%;
+    top: 0;
+    left: -260px;
+    transition: .2s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+.backdrop {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.btnsa {
+    background-color: rgb(36, 32, 32);
+    transition: 0.7ms;
+    color: white;
+    border: none;
+    outline: none !important;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 25px;
+    text-align: left;
+}
+.btnsa:hover {
+    background-color: rgb(51, 46, 46);
+}
+.hidden-menu hr {
+    background-color: gray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.navtext {
+    padding: 10px 15px 10px 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
