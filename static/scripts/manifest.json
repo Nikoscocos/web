@@ -1,0 +1,10 @@
+{
+    "lang": "ru",
+    "name": "Freeze",
+    "description": "Социальная сеть для людей!",
+    "short_name": "Freeze App",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "white",
+    "background_color": "white"
+}

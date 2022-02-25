@@ -6,7 +6,6 @@
     padding: 10px;
     z-index: 1;
     display: none;
-    box-shadow: 0 8px 4px -4px rgba(0, 0, 0, .2);
 }
 .navcont {
     padding: 0px 10px 0px 10px;
@@ -56,7 +55,6 @@ html, body {
     display: block;
     position: fixed;
     list-style:none;
-    padding: 15px;
     margin: 0;
     box-sizing: border-box;
     width: 260px;
@@ -106,4 +104,67 @@ html, body {
     color: white;
     font-weight: 700;
     font-size: 20px;
+}
+.page {
+    padding: 0px;
+}
+.newpage {
+    display: block;
+    position: fixed;
+    list-style:none;
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    right: -100%;
+    width: 100%;
+    top: 57px;
+    background-color: rgb(255, 255, 255);
+    height: calc(100% - 57px);
+    color: rgb(0, 0, 0);
+    transition: .4s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    box-shadow: inset 7px 0 9px -7px rgba(0,0,0,0.7);
+}
+.list {
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+    margin-bottom: -9px;
+}
+.listicon {
+    float: left;
+    margin-left: 3px;
+    margin-right: 20px;
+}
+.listtext {
+    padding: 0px 10px 0px 10px;
+}
+.list i {
+    color: black;
+}
+.list h6 {
+    line-height: 5px;
+}
+.sh {
+    color: gray;
+    line-height: 35px;
+}
+.page hr {
+    background-color: rgb(163, 163, 163);
+    margin-bottom: 0px;
+}
+.hidden-menu .av {
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(56, 52, 58);
+}
+.hidden-menu .av .avatar {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.menu {
+    padding: 10px;
+    width: 100%;
 }

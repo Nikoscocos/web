@@ -8,5 +8,6 @@ function remvNav() {
     document.getElementById('back').style.opacity = '0'
 }
 function changeTitle(title) {
+    remvNav()
     document.getElementById('navtitl').innerHTML = title
 }
